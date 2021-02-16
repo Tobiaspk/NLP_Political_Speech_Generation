@@ -171,7 +171,7 @@ class PresidentModel():
     :param model_input: Initially empty. Can be used to introduce a pretrained model.
     :param device: Specify device to use
   """
-  def __init__(self, model_input: GPT2LMHeadModel = None), device="cuda":
+  def __init__(self, model_input: GPT2LMHeadModel = None, device="cuda"):
     self.device = device
     self.device = torch.device(self.device)  # Sloppily use Cuda GPU. 
     self.tokenizer = GPT2Tokenizer.from_pretrained('gpt2', pad_token="<|endoftext|>")  # extract the gpt2 tokenizer
