@@ -2,7 +2,7 @@
 
 Using GPT generate political speeches based on US presidents
 
-Check *main.py* for a documented walk through and examples of the code.
+Check *src/main.py* for a documented walk through and examples of the code.
 
 ## Example Results
 
