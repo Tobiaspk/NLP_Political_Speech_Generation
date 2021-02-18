@@ -1,6 +1,6 @@
 # NLP_Political_Speech_Generation
 
-Using GPT generate political speeches based on US presidents
+Generate political speeches based on US presidents using GPT2
 
 Check *src/main.py* for a documented walk through and examples of the code.
 
